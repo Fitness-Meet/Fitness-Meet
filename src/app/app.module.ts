@@ -5,14 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { EventModule } from './event/event.module';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
     declarations: [
-        AppComponent,
+        AppComponent
     ],
     imports: [
+        BrowserAnimationsModule,
         BrowserModule,
         EventModule,
-        AppRoutingModule,
+        AppRoutingModule
     ],
     providers: [],
     bootstrap: [AppComponent]
