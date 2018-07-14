@@ -1,0 +1,26 @@
+<div class="header">
+  <h1 class="title">Fitness Meet</h1>
+  <h2 class="subtitle">Cool slogan or something</h2>
+</div>
+
+<div class="container">
+    <mat-card class="loginCard">
+        <form>
+            <mat-form-field class="field">
+                <input matInput placeholder="Email" name="email" [(ngModel)]="email">
+            </mat-form-field>
+
+            <mat-form-field class="field">
+                <input matInput type="password" placeholder="Password" name="password" [(ngModel)]="password">
+            </mat-form-field>
+
+            <button mat-raised-button color="primary">Sign in</button>
+        </form>
+    </mat-card>
+
+    <div class="buttons columns is-mobile">
+      <button mat-raised-button class="facebook column">Sign in with Facebook</button>
+      <button mat-raised-button class="google column">Sign in with Google</button>
+      <button mat-raised-button class="create column is-12" color="primary">Create account</button>
+    </div>
+</div>
