@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'fm-login-page',
@@ -10,9 +11,13 @@ export class LoginPageComponent implements OnInit {
   private email;
   private password;
   
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
+
+  private goToNewAccount() {
+    this.router.navigateByUrl("/new-account");
+  }
 }

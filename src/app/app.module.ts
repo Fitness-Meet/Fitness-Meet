@@ -7,11 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginPageComponent } from './login-page/login-page.component';
 import { MatCardModule, MatInputModule, MatFormFieldModule, MatButtonModule } from '@angular/material';
 import { FormsModule } from '@angular/forms';
+import { NewAccountComponent } from './new-account/new-account.component';
 
 @NgModule({
     declarations: [
         AppComponent,
-        LoginPageComponent
+        LoginPageComponent,
+        NewAccountComponent
     ],
     imports: [
         FormsModule,

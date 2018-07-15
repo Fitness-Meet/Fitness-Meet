@@ -5,10 +5,10 @@
 }
 
 .wrapper {
+    height: 100%;
     @include desktop() {
         background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("../../assets/images/trianglify.png");
         background-size: cover;
-        height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -21,7 +21,8 @@
 }
 
 .header {
-    height: 360px;
+    height: 48%;
+    max-height: 360px;
     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../../assets/images/login.jpg');
     background-size: cover;
     background-position: center;
