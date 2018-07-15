@@ -8,7 +8,6 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { FormsModule } from '@angular/forms';
 import { NewAccountComponent } from './new-account/new-account.component';
 import { MaterialModule } from './shared/modules/material.module';
-import { UserModule } from './user/user.module';
 
 @NgModule({
     declarations: [
@@ -22,7 +21,6 @@ import { UserModule } from './user/user.module';
         BrowserModule,
         AppRoutingModule,
         MaterialModule,
-        UserModule
     ],
     providers: [],
     bootstrap: [AppComponent]

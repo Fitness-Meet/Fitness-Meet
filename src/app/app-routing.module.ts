@@ -8,6 +8,7 @@ const routes: Routes = [
     { path: 'login', component: LoginPageComponent },
     { path: 'new-account', component: NewAccountComponent},
     { path: 'user', loadChildren: './user/user.module#UserModule'},
+    { path: '**', redirectTo: '/login', pathMatch: 'full'},
 ];
 
 @NgModule({
