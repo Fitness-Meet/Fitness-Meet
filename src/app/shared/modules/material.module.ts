@@ -10,6 +10,13 @@ import { MatCardModule, MatInputModule, MatFormFieldModule, MatButtonModule } fr
     MatFormFieldModule,
     MatButtonModule
   ],
+  exports: [
+    CommonModule,
+    MatCardModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatButtonModule
+  ],
   declarations: []
 })
 export class MaterialModule { }
