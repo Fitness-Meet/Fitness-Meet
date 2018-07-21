@@ -4,7 +4,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-    { path: '', redirectTo: '/profile', pathMatch: 'full'},
+    { path: '', redirectTo: 'profile', pathMatch: 'full'},
     { path: 'profile', component: ProfileComponent },
   ];
 
